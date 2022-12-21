@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC7F295276EB00F604AC /* AppDelegate.swift */; };
+		6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC81295276EB00F604AC /* SceneDelegate.swift */; };
+		6CA4CC87295276EB00F604AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CC85295276EB00F604AC /* Main.storyboard */; };
+		6CA4CC8C295276EC00F604AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */; };
+		6CA4CC97295276ED00F604AC /* TalkToMeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC96295276ED00F604AC /* TalkToMeTests.swift */; };
+		6CA4CCA1295276ED00F604AC /* TalkToMeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCA0295276ED00F604AC /* TalkToMeUITests.swift */; };
+		6CA4CCA3295276ED00F604AC /* TalkToMeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCA2295276ED00F604AC /* TalkToMeUITestsLaunchTests.swift */; };
+		6CA4CCB5295277BA00F604AC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */; };
+		6CA4CCB7295277C400F604AC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB6295277C400F604AC /* SignInViewController.swift */; };
+		6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB8295277DC00F604AC /* ChatViewController.swift */; };
+		6CA4CCBB2953963E00F604AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CCBA2953963E00F604AC /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CA4CC93295276ED00F604AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA4CC74295276EB00F604AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA4CC7B295276EB00F604AC;
+			remoteInfo = TalkToMe;
+		};
+		6CA4CC9D295276ED00F604AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6CA4CC74295276EB00F604AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6CA4CC7B295276EB00F604AC;
+			remoteInfo = TalkToMe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6CA4CC7C295276EB00F604AC /* TalkToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA4CC7F295276EB00F604AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6CA4CC81295276EB00F604AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6CA4CC86295276EB00F604AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6CA4CC8B295276EC00F604AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6CA4CC8D295276EC00F604AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CA4CC92295276ED00F604AC /* TalkToMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA4CC96295276ED00F604AC /* TalkToMeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToMeTests.swift; sourceTree = "<group>"; };
+		6CA4CC9C295276ED00F604AC /* TalkToMeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkToMeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CA4CCA0295276ED00F604AC /* TalkToMeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToMeUITests.swift; sourceTree = "<group>"; };
+		6CA4CCA2295276ED00F604AC /* TalkToMeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalkToMeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6CA4CCB6295277C400F604AC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		6CA4CCB8295277DC00F604AC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		6CA4CCBA2953963E00F604AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CA4CC79295276EB00F604AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC8F295276ED00F604AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC99295276ED00F604AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6CA4CC73295276EB00F604AC = {
+			isa = PBXGroup;
+			children = (
+				6CA4CC7E295276EB00F604AC /* TalkToMe */,
+				6CA4CC95295276ED00F604AC /* TalkToMeTests */,
+				6CA4CC9F295276ED00F604AC /* TalkToMeUITests */,
+				6CA4CC7D295276EB00F604AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6CA4CC7D295276EB00F604AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CC7C295276EB00F604AC /* TalkToMe.app */,
+				6CA4CC92295276ED00F604AC /* TalkToMeTests.xctest */,
+				6CA4CC9C295276ED00F604AC /* TalkToMeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6CA4CC7E295276EB00F604AC /* TalkToMe */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CCAF295276FA00F604AC /* Model */,
+				6CA4CCB02952770200F604AC /* View */,
+				6CA4CCB12952770800F604AC /* Controller */,
+				6CA4CC7F295276EB00F604AC /* AppDelegate.swift */,
+				6CA4CC81295276EB00F604AC /* SceneDelegate.swift */,
+				6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */,
+				6CA4CCBA2953963E00F604AC /* Assets.xcassets */,
+				6CA4CC8D295276EC00F604AC /* Info.plist */,
+			);
+			path = TalkToMe;
+			sourceTree = "<group>";
+		};
+		6CA4CC95295276ED00F604AC /* TalkToMeTests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CC96295276ED00F604AC /* TalkToMeTests.swift */,
+			);
+			path = TalkToMeTests;
+			sourceTree = "<group>";
+		};
+		6CA4CC9F295276ED00F604AC /* TalkToMeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CCA0295276ED00F604AC /* TalkToMeUITests.swift */,
+				6CA4CCA2295276ED00F604AC /* TalkToMeUITestsLaunchTests.swift */,
+			);
+			path = TalkToMeUITests;
+			sourceTree = "<group>";
+		};
+		6CA4CCAF295276FA00F604AC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6CA4CCB02952770200F604AC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CC85295276EB00F604AC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6CA4CCB12952770800F604AC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA4CCB6295277C400F604AC /* SignInViewController.swift */,
+				6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */,
+				6CA4CCB8295277DC00F604AC /* ChatViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6CA4CC7B295276EB00F604AC /* TalkToMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA4CCA6295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMe" */;
+			buildPhases = (
+				6CA4CC78295276EB00F604AC /* Sources */,
+				6CA4CC79295276EB00F604AC /* Frameworks */,
+				6CA4CC7A295276EB00F604AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkToMe;
+			productName = TalkToMe;
+			productReference = 6CA4CC7C295276EB00F604AC /* TalkToMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6CA4CC91295276ED00F604AC /* TalkToMeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA4CCA9295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeTests" */;
+			buildPhases = (
+				6CA4CC8E295276ED00F604AC /* Sources */,
+				6CA4CC8F295276ED00F604AC /* Frameworks */,
+				6CA4CC90295276ED00F604AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA4CC94295276ED00F604AC /* PBXTargetDependency */,
+			);
+			name = TalkToMeTests;
+			productName = TalkToMeTests;
+			productReference = 6CA4CC92295276ED00F604AC /* TalkToMeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6CA4CC9B295276ED00F604AC /* TalkToMeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA4CCAC295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeUITests" */;
+			buildPhases = (
+				6CA4CC98295276ED00F604AC /* Sources */,
+				6CA4CC99295276ED00F604AC /* Frameworks */,
+				6CA4CC9A295276ED00F604AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6CA4CC9E295276ED00F604AC /* PBXTargetDependency */,
+			);
+			name = TalkToMeUITests;
+			productName = TalkToMeUITests;
+			productReference = 6CA4CC9C295276ED00F604AC /* TalkToMeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6CA4CC74295276EB00F604AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					6CA4CC7B295276EB00F604AC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					6CA4CC91295276ED00F604AC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6CA4CC7B295276EB00F604AC;
+					};
+					6CA4CC9B295276ED00F604AC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 6CA4CC7B295276EB00F604AC;
+					};
+				};
+			};
+			buildConfigurationList = 6CA4CC77295276EB00F604AC /* Build configuration list for PBXProject "TalkToMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6CA4CC73295276EB00F604AC;
+			productRefGroup = 6CA4CC7D295276EB00F604AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6CA4CC7B295276EB00F604AC /* TalkToMe */,
+				6CA4CC91295276ED00F604AC /* TalkToMeTests */,
+				6CA4CC9B295276ED00F604AC /* TalkToMeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6CA4CC7A295276EB00F604AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA4CC8C295276EC00F604AC /* LaunchScreen.storyboard in Resources */,
+				6CA4CCBB2953963E00F604AC /* Assets.xcassets in Resources */,
+				6CA4CC87295276EB00F604AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC90295276ED00F604AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC9A295276ED00F604AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6CA4CC78295276EB00F604AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */,
+				6CA4CCB5295277BA00F604AC /* SignUpViewController.swift in Sources */,
+				6CA4CCB7295277C400F604AC /* SignInViewController.swift in Sources */,
+				6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */,
+				6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC8E295276ED00F604AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA4CC97295276ED00F604AC /* TalkToMeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA4CC98295276ED00F604AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CA4CCA3295276ED00F604AC /* TalkToMeUITestsLaunchTests.swift in Sources */,
+				6CA4CCA1295276ED00F604AC /* TalkToMeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6CA4CC94295276ED00F604AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA4CC7B295276EB00F604AC /* TalkToMe */;
+			targetProxy = 6CA4CC93295276ED00F604AC /* PBXContainerItemProxy */;
+		};
+		6CA4CC9E295276ED00F604AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6CA4CC7B295276EB00F604AC /* TalkToMe */;
+			targetProxy = 6CA4CC9D295276ED00F604AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6CA4CC85295276EB00F604AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA4CC86295276EB00F604AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CA4CC8B295276EC00F604AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6CA4CCA4295276ED00F604AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6CA4CCA5295276ED00F604AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6CA4CCA7295276ED00F604AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkToMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6CA4CCA8295276ED00F604AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TalkToMe/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6CA4CCAA295276ED00F604AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkToMe";
+			};
+			name = Debug;
+		};
+		6CA4CCAB295276ED00F604AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkToMe.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TalkToMe";
+			};
+			name = Release;
+		};
+		6CA4CCAD295276ED00F604AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToMe;
+			};
+			name = Debug;
+		};
+		6CA4CCAE295276ED00F604AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = co.Ashleyrennee.TalkToMeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TalkToMe;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CA4CC77295276EB00F604AC /* Build configuration list for PBXProject "TalkToMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA4CCA4295276ED00F604AC /* Debug */,
+				6CA4CCA5295276ED00F604AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA4CCA6295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA4CCA7295276ED00F604AC /* Debug */,
+				6CA4CCA8295276ED00F604AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA4CCA9295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA4CCAA295276ED00F604AC /* Debug */,
+				6CA4CCAB295276ED00F604AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA4CCAC295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CA4CCAD295276ED00F604AC /* Debug */,
+				6CA4CCAE295276ED00F604AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6CA4CC74295276EB00F604AC /* Project object */;
+}
