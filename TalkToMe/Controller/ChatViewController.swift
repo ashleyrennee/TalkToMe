@@ -6,24 +6,47 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseCore
 
-class ChatViewController: UIViewController {
-
+class ChatViewController: UIViewController
+{
+    @IBOutlet weak var messageInputTextField: UITextField!
+    @IBOutlet weak var chatTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationItem.hidesBackButton = true
+        //chatTableView.dataSource = self
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    @IBAction func sendMessagePressed(_ sender: UIButton) {
+        
     }
-    */
-
+    
+    @IBAction func logOutPressed(_ sender: UIBarButtonItem) {
+        let firebaseAuth = Auth.auth()
+        do {
+          try firebaseAuth.signOut()
+            navigationController?.popToRootViewController(animated: true)
+        } catch let signOutError as NSError {
+          print("Error signing out: %@", signOutError)
+        }
+    }
 }
+
+//MARK: UITableViewDataSource
+//extension ChatViewController: UITableViewDataSource{
+  
+   // @IBAction func sendMessagePressed(_ sender: UIButton) {
+    //}
+   // func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+  //      return section
+  //  }
+    
+  //  func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       // return indexPath.row(section)
+   // }
+    
+//}

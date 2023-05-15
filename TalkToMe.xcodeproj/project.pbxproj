@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F280249332685DF2F3940B2 /* Pods_TalkToMe_TalkToMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4FC87D20596258942B7154 /* Pods_TalkToMe_TalkToMeUITests.framework */; };
+		6C30472829B3E11E006596F1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472729B3E11E006596F1 /* Message.swift */; };
+		6C30472A29B3E19E006596F1 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472929B3E19E006596F1 /* ChatCell.swift */; };
+		6C30472D29B409A8006596F1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472B29B409A8006596F1 /* Color.swift */; };
 		6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC7F295276EB00F604AC /* AppDelegate.swift */; };
 		6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC81295276EB00F604AC /* SceneDelegate.swift */; };
 		6CA4CC87295276EB00F604AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CC85295276EB00F604AC /* Main.storyboard */; };
@@ -17,7 +21,10 @@
 		6CA4CCB5295277BA00F604AC /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */; };
 		6CA4CCB7295277C400F604AC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB6295277C400F604AC /* SignInViewController.swift */; };
 		6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB8295277DC00F604AC /* ChatViewController.swift */; };
-		6CA4CCBB2953963E00F604AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CCBA2953963E00F604AC /* Assets.xcassets */; };
+		6CA4CCBD2953A0A000F604AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CCBC2953A0A000F604AC /* Assets.xcassets */; };
+		6CCFB48D2A11DD4900EB9E12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */; };
+		AD3A44AE92A297368ED42E2C /* Pods_TalkToMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58002A6C5F54E7C96F42F991 /* Pods_TalkToMeTests.framework */; };
+		E93C4B7808DE5400ED7C8C49 /* Pods_TalkToMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E3D243930430AB98F2259 /* Pods_TalkToMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3A4B55D94189D2DF983961DA /* Pods-TalkToMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe.release.xcconfig"; path = "Target Support Files/Pods-TalkToMe/Pods-TalkToMe.release.xcconfig"; sourceTree = "<group>"; };
+		3B4FC87D20596258942B7154 /* Pods_TalkToMe_TalkToMeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToMe_TalkToMeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58002A6C5F54E7C96F42F991 /* Pods_TalkToMeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToMeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61EBE289EB19D7B618C80EDA /* Pods-TalkToMe-TalkToMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe-TalkToMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64CB7B84AD1A2C3836427E4A /* Pods-TalkToMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMeTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C30472729B3E11E006596F1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		6C30472929B3E19E006596F1 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		6C30472C29B409A8006596F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = TalkToMe/Base.lproj/Color.swift; sourceTree = SOURCE_ROOT; };
 		6CA4CC7C295276EB00F604AC /* TalkToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA4CC7F295276EB00F604AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA4CC81295276EB00F604AC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,7 +67,12 @@
 		6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6CA4CCB6295277C400F604AC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		6CA4CCB8295277DC00F604AC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
-		6CA4CCBA2953963E00F604AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Assets.xcassets; sourceTree = "<group>"; };
+		6CA4CCBC2953A0A000F604AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6E9E9AEF71546776CDB9A19D /* Pods-TalkToMe-TalkToMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe-TalkToMeUITests.release.xcconfig"; path = "Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CB479CDD5C71139413DDDC20 /* Pods-TalkToMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMe/Pods-TalkToMe.debug.xcconfig"; sourceTree = "<group>"; };
+		CD019F53C0932B6C46628B1A /* Pods-TalkToMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMeTests.release.xcconfig"; path = "Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E70E3D243930430AB98F2259 /* Pods_TalkToMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TalkToMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E93C4B7808DE5400ED7C8C49 /* Pods_TalkToMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD3A44AE92A297368ED42E2C /* Pods_TalkToMeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F280249332685DF2F3940B2 /* Pods_TalkToMe_TalkToMeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +110,8 @@
 				6CA4CC95295276ED00F604AC /* TalkToMeTests */,
 				6CA4CC9F295276ED00F604AC /* TalkToMeUITests */,
 				6CA4CC7D295276EB00F604AC /* Products */,
+				8FC577CEEA6505B31AA518F5 /* Pods */,
+				8A0B05CBE6E08D0E98A826B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,8 +134,9 @@
 				6CA4CC7F295276EB00F604AC /* AppDelegate.swift */,
 				6CA4CC81295276EB00F604AC /* SceneDelegate.swift */,
 				6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */,
-				6CA4CCBA2953963E00F604AC /* Assets.xcassets */,
+				6CA4CCBC2953A0A000F604AC /* Assets.xcassets */,
 				6CA4CC8D295276EC00F604AC /* Info.plist */,
+				6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */,
 			);
 			path = TalkToMe;
 			sourceTree = "<group>";
@@ -135,6 +161,8 @@
 		6CA4CCAF295276FA00F604AC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				6C30472729B3E11E006596F1 /* Message.swift */,
+				6C30472B29B409A8006596F1 /* Color.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -153,8 +181,32 @@
 				6CA4CCB6295277C400F604AC /* SignInViewController.swift */,
 				6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */,
 				6CA4CCB8295277DC00F604AC /* ChatViewController.swift */,
+				6C30472929B3E19E006596F1 /* ChatCell.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A0B05CBE6E08D0E98A826B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E70E3D243930430AB98F2259 /* Pods_TalkToMe.framework */,
+				3B4FC87D20596258942B7154 /* Pods_TalkToMe_TalkToMeUITests.framework */,
+				58002A6C5F54E7C96F42F991 /* Pods_TalkToMeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FC577CEEA6505B31AA518F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CB479CDD5C71139413DDDC20 /* Pods-TalkToMe.debug.xcconfig */,
+				3A4B55D94189D2DF983961DA /* Pods-TalkToMe.release.xcconfig */,
+				61EBE289EB19D7B618C80EDA /* Pods-TalkToMe-TalkToMeUITests.debug.xcconfig */,
+				6E9E9AEF71546776CDB9A19D /* Pods-TalkToMe-TalkToMeUITests.release.xcconfig */,
+				64CB7B84AD1A2C3836427E4A /* Pods-TalkToMeTests.debug.xcconfig */,
+				CD019F53C0932B6C46628B1A /* Pods-TalkToMeTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,9 +216,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CA4CCA6295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMe" */;
 			buildPhases = (
+				AF9CC277282E6B313CA088AB /* [CP] Check Pods Manifest.lock */,
 				6CA4CC78295276EB00F604AC /* Sources */,
 				6CA4CC79295276EB00F604AC /* Frameworks */,
 				6CA4CC7A295276EB00F604AC /* Resources */,
+				5FFE55ECB287A09FE8C4CC80 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -181,9 +235,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CA4CCA9295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeTests" */;
 			buildPhases = (
+				BF9027553ACEF5B854B5EA56 /* [CP] Check Pods Manifest.lock */,
 				6CA4CC8E295276ED00F604AC /* Sources */,
 				6CA4CC8F295276ED00F604AC /* Frameworks */,
 				6CA4CC90295276ED00F604AC /* Resources */,
+				DCD719769BD738FC720FA115 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -199,9 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6CA4CCAC295276ED00F604AC /* Build configuration list for PBXNativeTarget "TalkToMeUITests" */;
 			buildPhases = (
+				38DDA6EBA4005C9ACC465351 /* [CP] Check Pods Manifest.lock */,
 				6CA4CC98295276ED00F604AC /* Sources */,
 				6CA4CC99295276ED00F604AC /* Frameworks */,
 				6CA4CC9A295276ED00F604AC /* Resources */,
+				0D16372F561F681B6DA76F25 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,7 +320,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CA4CC8C295276EC00F604AC /* LaunchScreen.storyboard in Resources */,
-				6CA4CCBB2953963E00F604AC /* Assets.xcassets in Resources */,
+				6CCFB48D2A11DD4900EB9E12 /* GoogleService-Info.plist in Resources */,
+				6CA4CCBD2953A0A000F604AC /* Assets.xcassets in Resources */,
 				6CA4CC87295276EB00F604AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +342,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D16372F561F681B6DA76F25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		38DDA6EBA4005C9ACC465351 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToMe-TalkToMeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FFE55ECB287A09FE8C4CC80 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToMe/Pods-TalkToMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF9CC277282E6B313CA088AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9027553ACEF5B854B5EA56 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TalkToMeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCD719769BD738FC720FA115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6CA4CC78295276EB00F604AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -291,6 +470,9 @@
 				6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */,
 				6CA4CCB5295277BA00F604AC /* SignUpViewController.swift in Sources */,
 				6CA4CCB7295277C400F604AC /* SignInViewController.swift in Sources */,
+				6C30472829B3E11E006596F1 /* Message.swift in Sources */,
+				6C30472A29B3E19E006596F1 /* ChatCell.swift in Sources */,
+				6C30472D29B409A8006596F1 /* Color.swift in Sources */,
 				6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */,
 				6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */,
 			);
@@ -329,6 +511,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		6C30472B29B409A8006596F1 /* Color.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C30472C29B409A8006596F1 /* Base */,
+			);
+			name = Color.swift;
+			sourceTree = "<group>";
+		};
 		6CA4CC85295276EB00F604AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -464,6 +654,7 @@
 		};
 		6CA4CCA7295276ED00F604AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB479CDD5C71139413DDDC20 /* Pods-TalkToMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +667,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -491,6 +683,7 @@
 		};
 		6CA4CCA8295276ED00F604AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A4B55D94189D2DF983961DA /* Pods-TalkToMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -503,6 +696,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -518,6 +712,7 @@
 		};
 		6CA4CCAA295276ED00F604AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CB7B84AD1A2C3836427E4A /* Pods-TalkToMeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -537,6 +732,7 @@
 		};
 		6CA4CCAB295276ED00F604AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD019F53C0932B6C46628B1A /* Pods-TalkToMeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -556,6 +752,7 @@
 		};
 		6CA4CCAD295276ED00F604AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61EBE289EB19D7B618C80EDA /* Pods-TalkToMe-TalkToMeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -573,6 +770,7 @@
 		};
 		6CA4CCAE295276ED00F604AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E9E9AEF71546776CDB9A19D /* Pods-TalkToMe-TalkToMeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
