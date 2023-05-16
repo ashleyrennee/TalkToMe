@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,18 +18,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TTM-logo" translatesAutoresizingMaskIntoConstraints="NO" id="tFC-JR-Kpk">
-                                <rect key="frame" x="86" y="203" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TTM-logo" translatesAutoresizingMaskIntoConstraints="NO" id="tFC-JR-Kpk">
+                                <rect key="frame" x="76" y="203" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="wW5-ig-O8A"/>
+                                </constraints>
                             </imageView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RI6-LB-T7P">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RI6-LB-T7P">
                                 <rect key="frame" x="41" y="331" width="310" height="382"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  password" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rrz-3z-mr1">
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  password" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rrz-3z-mr1">
                                         <rect key="frame" x="14" y="155" width="282" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="textColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Color 3"/>
+                                        <color key="textColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
@@ -42,35 +45,38 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Sign">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="Helvetica-Bold"/>
                                                         <font key="NSOriginalFont" size="22" name="NotoSansOriya-Bold"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="NotoSansOriya-Bold"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="Up">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="Helvetica-Bold"/>
                                                         <font key="NSOriginalFont" size="22" name="NotoSansOriya-Bold"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
+                                            <color key="baseForegroundColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseBackgroundColor" name="Color 1"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="signUpPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Be-pU-rTQ"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  email" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R6u-T5-98T">
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  email" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="R6u-T5-98T">
                                         <rect key="frame" x="14" y="46" width="282" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="textColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Color 3"/>
+                                        <color key="textColor" name="Color"/>
                                         <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -80,20 +86,20 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Email">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
                                             </fragment>
                                             <fragment content=" ">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
                                             </fragment>
                                             <fragment content="Address">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
@@ -107,7 +113,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Password">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -120,7 +126,7 @@
                                         <rect key="frame" x="14" y="199" width="261" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-LightItalic" family="Helvetica Neue" pointSize="10"/>
-                                        <color key="textColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="textColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -128,13 +134,23 @@
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="Color"/>
+                        <constraints>
+                            <constraint firstItem="tFC-JR-Kpk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="3B1-10-oMK"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RI6-LB-T7P" secondAttribute="bottom" constant="105" id="A6U-zX-ryc"/>
+                            <constraint firstItem="tFC-JR-Kpk" firstAttribute="centerX" secondItem="RI6-LB-T7P" secondAttribute="centerX" id="Ear-tj-Nl0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tFC-JR-Kpk" secondAttribute="trailing" constant="77" id="Ns4-6X-mc9"/>
+                            <constraint firstItem="RI6-LB-T7P" firstAttribute="top" secondItem="tFC-JR-Kpk" secondAttribute="bottom" id="QMv-SS-AYc"/>
+                            <constraint firstItem="RI6-LB-T7P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="esv-pS-Ei5"/>
+                            <constraint firstItem="tFC-JR-Kpk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="76" id="oj5-xv-bil"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="mSf-gA-HFx"/>
                     <connections>
                         <outlet property="emailTextField" destination="R6u-T5-98T" id="z5I-6h-Yib"/>
                         <outlet property="errorLabel" destination="25G-Tr-WRx" id="gPs-Ew-NpT"/>
                         <outlet property="passwordTextField" destination="rrz-3z-mr1" id="v0I-5W-EJW"/>
+                        <outlet property="signUpButton" destination="xob-GC-AT5" id="ry4-Zu-Rro"/>
                         <segue destination="RA4-yy-Mib" kind="show" identifier="SignedUp" id="jp3-gO-VC7"/>
                     </connections>
                 </viewController>
@@ -154,45 +170,46 @@
                                 <rect key="frame" x="41" y="331" width="310" height="382"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  password" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJY-sU-ryM">
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  password" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XJY-sU-ryM">
                                         <rect key="frame" x="14" y="155" width="282" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="textColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Color 3"/>
+                                        <color key="textColor" name="Color"/>
                                         <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
                                         <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QzB-zt-wiA">
                                         <rect key="frame" x="11" y="228" width="282" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.61176472900000001" green="0.84705877299999999" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                        <color key="tintColor" red="0.61176472900000001" green="0.84705877299999999" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Color 1"/>
+                                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Sign">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="Helvetica-Bold"/>
                                                         <font key="NSOriginalFont" size="22" name="NotoSansOriya-Bold"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="NotoSansOriya-Bold"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="In">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="22" name="Helvetica-Bold"/>
                                                         <font key="NSOriginalFont" size="22" name="NotoSansOriya-Bold"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
-                                            <color key="baseForegroundColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                            <color key="baseBackgroundColor" red="0.61176472900000001" green="0.84705877299999999" blue="0.8156862855" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseForegroundColor" name="Color"/>
+                                            <color key="baseBackgroundColor" red="0.96470588450000005" green="0.99215686319999996" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="signInPressed:" destination="dIu-Tw-NZG" eventType="touchUpInside" id="lCY-mA-YGN"/>
@@ -206,106 +223,107 @@
                                             <attributedString key="attributedTitle">
                                                 <fragment content="Don">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="'">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="t">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="have">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="an">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="account">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="? ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="Sign">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content=" ">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="NotoSansOriya"/>
                                                         <font key="NSOriginalFont" size="12" name="Helvetica"/>
                                                     </attributes>
                                                 </fragment>
                                                 <fragment content="up">
                                                     <attributes>
-                                                        <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <font key="NSFont" size="16" name="Helvetica"/>
                                                         <font key="NSOriginalFont" size="16" name="NotoSansOriya"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
-                                            <color key="baseForegroundColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="baseForegroundColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="dontHaveAccountPressed:" destination="dIu-Tw-NZG" eventType="touchUpInside" id="3gh-Od-Woa"/>
                                         </connections>
                                     </button>
-                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="  email" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHy-N4-cMD">
+                                    <textField opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="  email" textAlignment="natural" adjustsFontForContentSizeCategory="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="HHy-N4-cMD">
                                         <rect key="frame" x="14" y="46" width="282" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="textColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" name="Color 3"/>
+                                        <color key="textColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <fontDescription key="fontDescription" name="NotoSansOriya" family="Noto Sans Oriya" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
@@ -315,20 +333,20 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Email">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
                                             </fragment>
                                             <fragment content=" ">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
                                             </fragment>
                                             <fragment content="Address">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                 </attributes>
@@ -342,7 +360,7 @@
                                         <attributedString key="attributedText">
                                             <fragment content="Password">
                                                 <attributes>
-                                                    <color key="NSColor" red="0.2117646933" green="0.47058826679999999" blue="0.42745098469999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    <color key="NSColor" red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     <font key="NSFont" size="14" name="Helvetica"/>
                                                     <font key="NSOriginalFont" size="14" name="NotoSansOriya"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
@@ -355,17 +373,18 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TTM-logo" translatesAutoresizingMaskIntoConstraints="NO" id="GbA-ZZ-ltQ">
-                                <rect key="frame" x="86" y="203" width="240" height="128"/>
+                                <rect key="frame" x="76" y="202" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aaR-1a-bSP"/>
-                        <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="Color"/>
                     </view>
                     <navigationItem key="navigationItem" id="hhW-7I-zVO"/>
                     <connections>
                         <outlet property="emailTextField" destination="HHy-N4-cMD" id="kx2-RU-QAm"/>
                         <outlet property="passwordTextField" destination="XJY-sU-ryM" id="zpe-WZ-wLU"/>
+                        <outlet property="signInButton" destination="QzB-zt-wiA" id="r2h-Fl-NRh"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="CreateAccount" id="DgV-b3-k9e"/>
                         <segue destination="RA4-yy-Mib" kind="show" identifier="SignedIn" id="QjG-dg-qQK"/>
                     </connections>
@@ -382,36 +401,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="q1y-8V-oKQ">
-                                <rect key="frame" x="0.0" y="59" width="393" height="648"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="q1y-8V-oKQ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="673"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChatCell" rowHeight="91" id="fOP-tR-4P1" customClass="ChatCell" customModule="TalkToMe" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="91"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fOP-tR-4P1" id="765-Mm-aLk">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="91"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                </prototypes>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="393" id="558-sD-Ob3"/>
+                                </constraints>
                             </tableView>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="leN-X5-Lxs">
-                                <rect key="frame" x="0.0" y="715" width="393" height="75"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leN-X5-Lxs">
+                                <rect key="frame" x="0.0" y="740" width="393" height="50"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-e9-AhH">
-                                        <rect key="frame" x="20" y="17" width="291" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Type " textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Jtc-e9-AhH">
+                                        <rect key="frame" x="20" y="-10" width="288" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="JVj-ev-4kQ"/>
+                                        </constraints>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleAspectFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fts-Db-3jf">
-                                        <rect key="frame" x="319" y="15" width="56" height="45"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fts-Db-3jf">
+                                        <rect key="frame" x="316" y="15" width="59" height="20"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="20" id="1Aw-l9-Mqa"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="WRh-6f-yWO"/>
+                                        </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" image="TTM-chatButton">
+                                        <buttonConfiguration key="configuration" style="plain" image="Image">
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
                                         </buttonConfiguration>
                                         <connections>
@@ -420,10 +436,28 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="fts-Db-3jf" secondAttribute="trailing" constant="18" id="11V-yy-LyR"/>
+                                    <constraint firstItem="fts-Db-3jf" firstAttribute="top" secondItem="leN-X5-Lxs" secondAttribute="top" constant="15" id="9QP-4K-fwY"/>
+                                    <constraint firstItem="fts-Db-3jf" firstAttribute="leading" secondItem="Jtc-e9-AhH" secondAttribute="trailing" constant="8" symbolic="YES" id="AM1-Zt-ATC"/>
+                                    <constraint firstItem="fts-Db-3jf" firstAttribute="centerY" secondItem="leN-X5-Lxs" secondAttribute="centerY" id="GxO-7e-pKm"/>
+                                    <constraint firstAttribute="bottom" secondItem="Jtc-e9-AhH" secondAttribute="bottom" constant="20" id="idb-if-xX4"/>
+                                    <constraint firstItem="Jtc-e9-AhH" firstAttribute="leading" secondItem="leN-X5-Lxs" secondAttribute="leading" constant="20" id="yyQ-YR-6Pl"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tXT-cs-E5e"/>
-                        <color key="backgroundColor" red="0.99607843159999998" green="1" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" name="Color 3"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="leN-X5-Lxs" secondAttribute="trailing" id="DTo-Zq-Ljh"/>
+                            <constraint firstItem="q1y-8V-oKQ" firstAttribute="top" secondItem="4xd-K0-pMJ" secondAttribute="topMargin" constant="-44" id="Df1-Ug-aq4"/>
+                            <constraint firstItem="tXT-cs-E5e" firstAttribute="bottom" secondItem="leN-X5-Lxs" secondAttribute="bottom" constant="28" id="Dwu-vR-NrL"/>
+                            <constraint firstItem="leN-X5-Lxs" firstAttribute="trailing" secondItem="q1y-8V-oKQ" secondAttribute="trailing" id="IaX-0H-0OB"/>
+                            <constraint firstItem="leN-X5-Lxs" firstAttribute="top" secondItem="q1y-8V-oKQ" secondAttribute="bottom" constant="8" id="P0T-iL-bve"/>
+                            <constraint firstItem="leN-X5-Lxs" firstAttribute="leading" secondItem="q1y-8V-oKQ" secondAttribute="leading" id="fEf-Lh-NSR"/>
+                            <constraint firstItem="leN-X5-Lxs" firstAttribute="leading" secondItem="4xd-K0-pMJ" secondAttribute="leading" id="h3s-jn-Ibx"/>
+                            <constraint firstItem="leN-X5-Lxs" firstAttribute="top" secondItem="q1y-8V-oKQ" secondAttribute="bottom" constant="8" symbolic="YES" id="sPv-Mo-Rc3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aUS-7b-YpJ">
                         <barButtonItem key="rightBarButtonItem" title="Logout" id="H2H-0Q-k7u">
@@ -439,7 +473,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZWU-Ax-F8G" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3990" y="-183"/>
+            <point key="canvasLocation" x="3988.5496183206105" y="-183.09859154929578"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="X8Q-y6-9aJ">
@@ -449,6 +483,11 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7fD-7h-FZx">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" name="Color 2"/>
+                        <color key="barTintColor" name="Color"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -464,8 +503,20 @@
         <segue reference="QjG-dg-qQK"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="TTM-chatButton" width="40" height="40"/>
-        <image name="TTM-logo" width="566" height="200"/>
+        <image name="Image" width="35" height="35"/>
+        <image name="TTM-logo" width="418" height="60"/>
+        <namedColor name="Color">
+            <color red="0.43921568989999998" green="0.078431375319999996" blue="0.92156863209999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Color 1">
+            <color red="0.96470588450000005" green="0.99215686319999996" blue="0.75294119120000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Color 2">
+            <color red="0.95686274770000002" green="0.92156863209999995" blue="0.99215686319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="Color 3">
+            <color red="0.99607843159999998" green="1" blue="0.9529411793" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

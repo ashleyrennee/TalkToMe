@@ -5,6 +5,7 @@ target 'TalkToMe' do
   use_frameworks!
   pod 'FirebaseAuth'
   pod 'FirebaseFirestore'
+  pod 'IQKeyboardManagerSwift'
   # Pods for TalkToMe
 
   target 'TalkToMeTests' do
@@ -12,12 +13,14 @@ target 'TalkToMe' do
     # Pods for testing
     pod 'FirebaseAuth'
     pod 'FirebaseFirestore'
+    pod 'IQKeyboardManagerSwift'
   end
 
   target 'TalkToMeUITests' do
     # Pods for testing
     pod 'FirebaseAuth'
     pod 'FirebaseFirestore'
+    pod 'IQKeyboardManagerSwift'
 
   end
 

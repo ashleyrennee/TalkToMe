@@ -13,14 +13,24 @@ class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
     
     override func viewDidLoad(){
         super.viewDidLoad()
     
-        emailTextField.layer.borderWidth = 1
-        passwordTextField.layer.borderWidth = 1
-        emailTextField.layer.borderColor = Color.brdrColor
-        passwordTextField.layer.borderColor = Color.brdrColor
+        signInButton.layer.borderWidth = Dimensions.brdrWidth
+        emailTextField.layer.borderWidth = Dimensions.brdrWidth
+        passwordTextField.layer.borderWidth = Dimensions.brdrWidth
+        
+        signInButton.layer.cornerRadius = Dimensions.brdrRadius
+        passwordTextField.layer.cornerRadius = Dimensions.brdrRadius
+        emailTextField.layer.cornerRadius = Dimensions.brdrRadius
+        
+        signInButton.layer.borderColor = Color.darkPurpleColor
+        passwordTextField.layer.borderColor = Color.darkPurpleColor
+        emailTextField.layer.borderColor = Color.darkPurpleColor
+        
+        
         
     }
     

@@ -7,8 +7,13 @@
 
 import Foundation
 import UIKit
+
 struct Color{
-    //dark green
-    static let brdrColor = UIColor.init(red: 9/255, green: 122/255, blue: 108/255, alpha: 1.0).cgColor
+    //Yellow
+    static let buttonColor = UIColor.init(red: 244/255, green: 253/255, blue: 185/255, alpha: 1.0).cgColor
+    //Lavendar
+    static let subTextColor = UIColor.init(red: 245/255, green: 235/255, blue: 255/255, alpha: 1.0).cgColor
+    //Dark Purple
+    static let darkPurpleColor = UIColor.init(red: 123/255, green: 2/255, blue: 244/255, alpha: 1.0).cgColor
     
 }

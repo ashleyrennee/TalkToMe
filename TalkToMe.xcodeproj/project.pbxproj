@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1F280249332685DF2F3940B2 /* Pods_TalkToMe_TalkToMeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4FC87D20596258942B7154 /* Pods_TalkToMe_TalkToMeUITests.framework */; };
 		6C30472829B3E11E006596F1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472729B3E11E006596F1 /* Message.swift */; };
-		6C30472A29B3E19E006596F1 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472929B3E19E006596F1 /* ChatCell.swift */; };
 		6C30472D29B409A8006596F1 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C30472B29B409A8006596F1 /* Color.swift */; };
 		6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC7F295276EB00F604AC /* AppDelegate.swift */; };
 		6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CC81295276EB00F604AC /* SceneDelegate.swift */; };
@@ -23,6 +22,9 @@
 		6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA4CCB8295277DC00F604AC /* ChatViewController.swift */; };
 		6CA4CCBD2953A0A000F604AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA4CCBC2953A0A000F604AC /* Assets.xcassets */; };
 		6CCFB48D2A11DD4900EB9E12 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */; };
+		6CCFB4902A12BDF900EB9E12 /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCFB48E2A12BDF900EB9E12 /* ChatCell.swift */; };
+		6CCFB4912A12BDF900EB9E12 /* ChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CCFB48F2A12BDF900EB9E12 /* ChatCell.xib */; };
+		6CCFB4932A1415CC00EB9E12 /* Dimensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CCFB4922A1415CB00EB9E12 /* Dimensions.swift */; };
 		AD3A44AE92A297368ED42E2C /* Pods_TalkToMeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58002A6C5F54E7C96F42F991 /* Pods_TalkToMeTests.framework */; };
 		E93C4B7808DE5400ED7C8C49 /* Pods_TalkToMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E70E3D243930430AB98F2259 /* Pods_TalkToMe.framework */; };
 /* End PBXBuildFile section */
@@ -51,7 +53,6 @@
 		61EBE289EB19D7B618C80EDA /* Pods-TalkToMe-TalkToMeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe-TalkToMeUITests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		64CB7B84AD1A2C3836427E4A /* Pods-TalkToMeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMeTests.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		6C30472729B3E11E006596F1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		6C30472929B3E19E006596F1 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		6C30472C29B409A8006596F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = TalkToMe/Base.lproj/Color.swift; sourceTree = SOURCE_ROOT; };
 		6CA4CC7C295276EB00F604AC /* TalkToMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkToMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA4CC7F295276EB00F604AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +70,9 @@
 		6CA4CCB8295277DC00F604AC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		6CA4CCBC2953A0A000F604AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CCFB48E2A12BDF900EB9E12 /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
+		6CCFB48F2A12BDF900EB9E12 /* ChatCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatCell.xib; sourceTree = "<group>"; };
+		6CCFB4922A1415CB00EB9E12 /* Dimensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dimensions.swift; sourceTree = "<group>"; };
 		6E9E9AEF71546776CDB9A19D /* Pods-TalkToMe-TalkToMeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe-TalkToMeUITests.release.xcconfig"; path = "Target Support Files/Pods-TalkToMe-TalkToMeUITests/Pods-TalkToMe-TalkToMeUITests.release.xcconfig"; sourceTree = "<group>"; };
 		CB479CDD5C71139413DDDC20 /* Pods-TalkToMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMe.debug.xcconfig"; path = "Target Support Files/Pods-TalkToMe/Pods-TalkToMe.debug.xcconfig"; sourceTree = "<group>"; };
 		CD019F53C0932B6C46628B1A /* Pods-TalkToMeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TalkToMeTests.release.xcconfig"; path = "Target Support Files/Pods-TalkToMeTests/Pods-TalkToMeTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -133,7 +137,6 @@
 				6CA4CCB12952770800F604AC /* Controller */,
 				6CA4CC7F295276EB00F604AC /* AppDelegate.swift */,
 				6CA4CC81295276EB00F604AC /* SceneDelegate.swift */,
-				6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */,
 				6CA4CCBC2953A0A000F604AC /* Assets.xcassets */,
 				6CA4CC8D295276EC00F604AC /* Info.plist */,
 				6CCFB48C2A11DD4900EB9E12 /* GoogleService-Info.plist */,
@@ -163,6 +166,7 @@
 			children = (
 				6C30472729B3E11E006596F1 /* Message.swift */,
 				6C30472B29B409A8006596F1 /* Color.swift */,
+				6CCFB4922A1415CB00EB9E12 /* Dimensions.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +175,8 @@
 			isa = PBXGroup;
 			children = (
 				6CA4CC85295276EB00F604AC /* Main.storyboard */,
+				6CA4CC8A295276EC00F604AC /* LaunchScreen.storyboard */,
+				6CCFB48F2A12BDF900EB9E12 /* ChatCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -181,7 +187,7 @@
 				6CA4CCB6295277C400F604AC /* SignInViewController.swift */,
 				6CA4CCB4295277BA00F604AC /* SignUpViewController.swift */,
 				6CA4CCB8295277DC00F604AC /* ChatViewController.swift */,
-				6C30472929B3E19E006596F1 /* ChatCell.swift */,
+				6CCFB48E2A12BDF900EB9E12 /* ChatCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -321,6 +327,7 @@
 			files = (
 				6CA4CC8C295276EC00F604AC /* LaunchScreen.storyboard in Resources */,
 				6CCFB48D2A11DD4900EB9E12 /* GoogleService-Info.plist in Resources */,
+				6CCFB4912A12BDF900EB9E12 /* ChatCell.xib in Resources */,
 				6CA4CCBD2953A0A000F604AC /* Assets.xcassets in Resources */,
 				6CA4CC87295276EB00F604AC /* Main.storyboard in Resources */,
 			);
@@ -468,13 +475,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CA4CC80295276EB00F604AC /* AppDelegate.swift in Sources */,
+				6CCFB4902A12BDF900EB9E12 /* ChatCell.swift in Sources */,
 				6CA4CCB5295277BA00F604AC /* SignUpViewController.swift in Sources */,
 				6CA4CCB7295277C400F604AC /* SignInViewController.swift in Sources */,
 				6C30472829B3E11E006596F1 /* Message.swift in Sources */,
-				6C30472A29B3E19E006596F1 /* ChatCell.swift in Sources */,
 				6C30472D29B409A8006596F1 /* Color.swift in Sources */,
 				6CA4CCB9295277DC00F604AC /* ChatViewController.swift in Sources */,
 				6CA4CC82295276EB00F604AC /* SceneDelegate.swift in Sources */,
+				6CCFB4932A1415CC00EB9E12 /* Dimensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
