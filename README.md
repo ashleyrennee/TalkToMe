@@ -15,3 +15,4 @@ Sign Up            |  Chat Page
 ## Future improvements
 - Create a better differentiation between users 
 - Allow users to control who they chat with
+- Improve adaptability by allowing users to delete messages
