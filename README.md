@@ -3,7 +3,8 @@ TalkToMe is a MVC model chat app that stores user data like email, password, and
 
 Launch Screen          |  Sign In
 :-------------------------:|:-------------------------:
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 43 08](https://github.com/ashleyrennee/TalkToMe/assets/40500769/736199f5-63cd-4608-9b88-c21fe8391386) |  ![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 36 00](https://github.com/ashleyrennee/TalkToMe/assets/40500769/11b7e41e-8e8b-4508-989a-f4e354b72a9b)
+![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 43 08](https://github.com/ashleyrennee/TalkToMe/assets/40500769/736199f5-63cd-4608-9b88-c21fe8391386) | ![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 58 50](https://github.com/ashleyrennee/TalkToMe/assets/40500769/adc8eb99-46d1-442a-89e3-2523b187193c)
+
 
 
 Sign Up            |  Chat Page
