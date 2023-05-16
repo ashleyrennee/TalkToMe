@@ -8,7 +8,8 @@ Launch Screen          |  Sign In
 
 Sign Up            |  Chat Page
 :-------------------------:|:-------------------------:
-![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 36 00](https://github.com/ashleyrennee/TalkToMe/assets/40500769/942ef9c0-6a55-4606-8a78-def60654d623) |   ![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 36 22](https://github.com/ashleyrennee/TalkToMe/assets/40500769/13b6c40f-08cf-41cd-b8ec-344c2215bae2)
+![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 36 00](https://github.com/ashleyrennee/TalkToMe/assets/40500769/942ef9c0-6a55-4606-8a78-def60654d623) |  ![Simulator Screenshot - iPhone 14 Pro - 2023-05-16 at 15 54 31](https://github.com/ashleyrennee/TalkToMe/assets/40500769/96091fde-79c3-47ce-ad48-0351f0429c56)
+
 
 ## Future improvements
 - Create a better differentiation between users 
